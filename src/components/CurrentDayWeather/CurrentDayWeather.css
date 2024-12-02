@@ -1,0 +1,59 @@
+.current_day_weather {
+   margin: 0 auto;
+   width: 100%;
+   height: 40%;
+ }
+ 
+ .current_day_weather_container {
+   margin: 0 auto;
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   flex-wrap: wrap;
+ }
+ 
+ .weather_icon {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   height: 20%;
+   width: 40%;
+ 
+   margin: 0 auto;
+   margin-top: 15px;
+ }
+ 
+ .weather_icon img {
+   width: 30%;
+   margin: 0 auto;
+ }
+ 
+ .day_temp {
+   height: 30%;
+   width: 40%;
+ 
+   font-size: 5vh;
+ }
+ 
+ .right_box {
+   height: 30%;
+   width: 20%;
+ }
+ 
+ .night_temp {
+   font-size: 2vh;
+ }
+ 
+ .humidity {
+   font-size: 2vh;
+ }
+ 
+ .night_temp img {
+   width: 1.5vw;
+ }
+ 
+ .humidity img {
+   width: 1.5vw;
+ }
+ 

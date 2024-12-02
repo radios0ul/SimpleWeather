@@ -1,0 +1,21 @@
+.LogoHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2%;
+  border-bottom: 1px solid #000000;
+  border-radius: 5px;
+  height: 10%;
+}
+
+.name {
+  font-size: 14px;
+}
+
+.LogoHeader img {
+  height: 70%;
+}
+
+.LogoHeader span {
+  font-weight: bold;
+}

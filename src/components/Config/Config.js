@@ -1,0 +1,1506 @@
+export const API_KEY = "ade6f83e3aab4fb17fdeb86afebec276";
+
+export const defaultUrl = `https://api.openweathermap.org/data/2.5/weather?q=Moscow&appid=${API_KEY}`;
+
+export const defaultFiveDaysUrl = `https://api.openweathermap.org/data/2.5/forecast?q=Moscow&appid=${API_KEY}`;
+
+export const default_weather = {
+  coord: { lon: 37.6156, lat: 55.7522 },
+  weather: [
+    { id: 804, main: "Clouds", description: "overcast clouds", icon: "04n" },
+  ],
+  base: "stations",
+  main: {
+    temp: 293.0,
+    feels_like: 269.49,
+    temp_min: 272.64,
+    temp_max: 273.52,
+    pressure: 1015,
+    humidity: 61,
+    sea_level: 1015,
+    grnd_level: 995,
+  },
+  visibility: 10000,
+  wind: { speed: 3.53, deg: 224, gust: 7.16 },
+  clouds: { all: 100 },
+  dt: 1731591156,
+  sys: {
+    type: 2,
+    id: 2094500,
+    country: "RU",
+    sunrise: 1731560602,
+    sunset: 1731590691,
+  },
+  timezone: 10800,
+  id: 524901,
+  name: "Москва",
+  cod: 200,
+};
+
+export const defaultFiveDaysweather = {
+  weatherData: {
+    cod: "200",
+    message: 0,
+    cnt: 40,
+    list: [
+      {
+        dt: 1733054400,
+        main: {
+          temp: 275.03,
+          feels_like: 270.73,
+          temp_min: 274.83,
+          temp_max: 275.03,
+          pressure: 1027,
+          sea_level: 1027,
+          grnd_level: 1007,
+          humidity: 81,
+          temp_kf: 0.2,
+        },
+        weather: [
+          {
+            id: 804,
+            main: "Clouds",
+            description: "overcast clouds",
+            icon: "04d",
+          },
+        ],
+        clouds: {
+          all: 100,
+        },
+        wind: {
+          speed: 4.73,
+          deg: 253,
+          gust: 12.43,
+        },
+        visibility: 10000,
+        pop: 0,
+        sys: {
+          pod: "d",
+        },
+        dt_txt: "2024-12-01 12:00:00",
+      },
+      {
+        dt: 1733065200,
+        main: {
+          temp: 274.32,
+          feels_like: 270.05,
+          temp_min: 273.92,
+          temp_max: 274.32,
+          pressure: 1027,
+          sea_level: 1027,
+          grnd_level: 1006,
+          humidity: 86,
+          temp_kf: 0.4,
+        },
+        weather: [
+          {
+            id: 804,
+            main: "Clouds",
+            description: "overcast clouds",
+            icon: "04n",
+          },
+        ],
+        clouds: {
+          all: 100,
+        },
+        wind: {
+          speed: 4.39,
+          deg: 255,
+          gust: 11.71,
+        },
+        visibility: 10000,
+        pop: 0,
+        sys: {
+          pod: "n",
+        },
+        dt_txt: "2024-12-01 15:00:00",
+      },
+      {
+        dt: 1733076000,
+        main: {
+          temp: 273.55,
+          feels_like: 269.19,
+          temp_min: 273.55,
+          temp_max: 273.55,
+          pressure: 1026,
+          sea_level: 1026,
+          grnd_level: 1006,
+          humidity: 88,
+          temp_kf: 0,
+        },
+        weather: [
+          {
+            id: 804,
+            main: "Clouds",
+            description: "overcast clouds",
+            icon: "04n",
+          },
+        ],
+        clouds: {
+          all: 100,
+        },
+        wind: {
+          speed: 4.25,
+          deg: 260,
+          gust: 11.91,
+        },
+        visibility: 10000,
+        pop: 0,
+        sys: {
+          pod: "n",
+        },
+        dt_txt: "2024-12-01 18:00:00",
+      },
+      {
+        dt: 1733086800,
+        main: {
+          temp: 273.37,
+          feels_like: 269.2,
+          temp_min: 273.37,
+          temp_max: 273.37,
+          pressure: 1027,
+          sea_level: 1027,
+          grnd_level: 1007,
+          humidity: 87,
+          temp_kf: 0,
+        },
+        weather: [
+          {
+            id: 804,
+            main: "Clouds",
+            description: "overcast clouds",
+            icon: "04n",
+          },
+        ],
+        clouds: {
+          all: 100,
+        },
+        wind: {
+          speed: 3.91,
+          deg: 259,
+          gust: 10.84,
+        },
+        visibility: 10000,
+        pop: 0,
+        sys: {
+          pod: "n",
+        },
+        dt_txt: "2024-12-01 21:00:00",
+      },
+      {
+        dt: 1733097600,
+        main: {
+          temp: 273.31,
+          feels_like: 269.08,
+          temp_min: 273.31,
+          temp_max: 273.31,
+          pressure: 1026,
+          sea_level: 1026,
+          grnd_level: 1006,
+          humidity: 86,
+          temp_kf: 0,
+        },
+        weather: [
+          {
+            id: 804,
+            main: "Clouds",
+            description: "overcast clouds",
+            icon: "04n",
+          },
+        ],
+        clouds: {
+          all: 99,
+        },
+        wind: {
+          speed: 3.98,
+          deg: 260,
+          gust: 9.88,
+        },
+        visibility: 10000,
+        pop: 0,
+        sys: {
+          pod: "n",
+        },
+        dt_txt: "2024-12-02 00:00:00",
+      },
+      {
+        dt: 1733108400,
+        main: {
+          temp: 271.97,
+          feels_like: 267.82,
+          temp_min: 271.97,
+          temp_max: 271.97,
+          pressure: 1026,
+          sea_level: 1026,
+          grnd_level: 1006,
+          humidity: 88,
+          temp_kf: 0,
+        },
+        weather: [
+          {
+            id: 803,
+            main: "Clouds",
+            description: "broken clouds",
+            icon: "04n",
+          },
+        ],
+        clouds: {
+          all: 64,
+        },
+        wind: {
+          speed: 3.48,
+          deg: 256,
+          gust: 9.9,
+        },
+        visibility: 10000,
+        pop: 0,
+        sys: {
+          pod: "n",
+        },
+        dt_txt: "2024-12-02 03:00:00",
+      },
+      {
+        dt: 1733119200,
+        main: {
+          temp: 271.47,
+          feels_like: 267.4,
+          temp_min: 271.47,
+          temp_max: 271.47,
+          pressure: 1026,
+          sea_level: 1026,
+          grnd_level: 1006,
+          humidity: 88,
+          temp_kf: 0,
+        },
+        weather: [
+          {
+            id: 802,
+            main: "Clouds",
+            description: "scattered clouds",
+            icon: "03d",
+          },
+        ],
+        clouds: {
+          all: 46,
+        },
+        wind: {
+          speed: 3.25,
+          deg: 252,
+          gust: 9.52,
+        },
+        visibility: 10000,
+        pop: 0,
+        sys: {
+          pod: "d",
+        },
+        dt_txt: "2024-12-02 06:00:00",
+      },
+      {
+        dt: 1733130000,
+        main: {
+          temp: 272.97,
+          feels_like: 269.11,
+          temp_min: 272.97,
+          temp_max: 272.97,
+          pressure: 1026,
+          sea_level: 1026,
+          grnd_level: 1006,
+          humidity: 84,
+          temp_kf: 0,
+        },
+        weather: [
+          {
+            id: 800,
+            main: "Clear",
+            description: "clear sky",
+            icon: "01d",
+          },
+        ],
+        clouds: {
+          all: 8,
+        },
+        wind: {
+          speed: 3.38,
+          deg: 246,
+          gust: 9.22,
+        },
+        visibility: 10000,
+        pop: 0,
+        sys: {
+          pod: "d",
+        },
+        dt_txt: "2024-12-02 09:00:00",
+      },
+      {
+        dt: 1733140800,
+        main: {
+          temp: 273.6,
+          feels_like: 269.84,
+          temp_min: 273.6,
+          temp_max: 273.6,
+          pressure: 1025,
+          sea_level: 1025,
+          grnd_level: 1005,
+          humidity: 92,
+          temp_kf: 0,
+        },
+        weather: [
+          {
+            id: 800,
+            main: "Clear",
+            description: "clear sky",
+            icon: "01d",
+          },
+        ],
+        clouds: {
+          all: 7,
+        },
+        wind: {
+          speed: 3.43,
+          deg: 236,
+          gust: 9.73,
+        },
+        visibility: 10000,
+        pop: 0,
+        sys: {
+          pod: "d",
+        },
+        dt_txt: "2024-12-02 12:00:00",
+      },
+      {
+        dt: 1733151600,
+        main: {
+          temp: 274.35,
+          feels_like: 269.96,
+          temp_min: 274.35,
+          temp_max: 274.35,
+          pressure: 1025,
+          sea_level: 1025,
+          grnd_level: 1005,
+          humidity: 92,
+          temp_kf: 0,
+        },
+        weather: [
+          {
+            id: 803,
+            main: "Clouds",
+            description: "broken clouds",
+            icon: "04n",
+          },
+        ],
+        clouds: {
+          all: 70,
+        },
+        wind: {
+          speed: 4.61,
+          deg: 243,
+          gust: 9.13,
+        },
+        visibility: 10000,
+        pop: 0,
+        sys: {
+          pod: "n",
+        },
+        dt_txt: "2024-12-02 15:00:00",
+      },
+      {
+        dt: 1733162400,
+        main: {
+          temp: 274.36,
+          feels_like: 270.59,
+          temp_min: 274.36,
+          temp_max: 274.36,
+          pressure: 1024,
+          sea_level: 1024,
+          grnd_level: 1004,
+          humidity: 94,
+          temp_kf: 0,
+        },
+        weather: [
+          {
+            id: 804,
+            main: "Clouds",
+            description: "overcast clouds",
+            icon: "04n",
+          },
+        ],
+        clouds: {
+          all: 85,
+        },
+        wind: {
+          speed: 3.66,
+          deg: 228,
+          gust: 9.84,
+        },
+        visibility: 10000,
+        pop: 0,
+        sys: {
+          pod: "n",
+        },
+        dt_txt: "2024-12-02 18:00:00",
+      },
+      {
+        dt: 1733173200,
+        main: {
+          temp: 274.45,
+          feels_like: 270.41,
+          temp_min: 274.45,
+          temp_max: 274.45,
+          pressure: 1024,
+          sea_level: 1024,
+          grnd_level: 1004,
+          humidity: 93,
+          temp_kf: 0,
+        },
+        weather: [
+          {
+            id: 804,
+            main: "Clouds",
+            description: "overcast clouds",
+            icon: "04n",
+          },
+        ],
+        clouds: {
+          all: 100,
+        },
+        wind: {
+          speed: 4.08,
+          deg: 228,
+          gust: 9.89,
+        },
+        visibility: 10000,
+        pop: 0,
+        sys: {
+          pod: "n",
+        },
+        dt_txt: "2024-12-02 21:00:00",
+      },
+      {
+        dt: 1733184000,
+        main: {
+          temp: 274.6,
+          feels_like: 270.33,
+          temp_min: 274.6,
+          temp_max: 274.6,
+          pressure: 1023,
+          sea_level: 1023,
+          grnd_level: 1003,
+          humidity: 93,
+          temp_kf: 0,
+        },
+        weather: [
+          {
+            id: 804,
+            main: "Clouds",
+            description: "overcast clouds",
+            icon: "04n",
+          },
+        ],
+        clouds: {
+          all: 100,
+        },
+        wind: {
+          speed: 4.5,
+          deg: 226,
+          gust: 11.21,
+        },
+        visibility: 10000,
+        pop: 0,
+        sys: {
+          pod: "n",
+        },
+        dt_txt: "2024-12-03 00:00:00",
+      },
+      {
+        dt: 1733194800,
+        main: {
+          temp: 274.79,
+          feels_like: 270.48,
+          temp_min: 274.79,
+          temp_max: 274.79,
+          pressure: 1022,
+          sea_level: 1022,
+          grnd_level: 1002,
+          humidity: 91,
+          temp_kf: 0,
+        },
+        weather: [
+          {
+            id: 804,
+            main: "Clouds",
+            description: "overcast clouds",
+            icon: "04n",
+          },
+        ],
+        clouds: {
+          all: 100,
+        },
+        wind: {
+          speed: 4.66,
+          deg: 230,
+          gust: 11.12,
+        },
+        visibility: 10000,
+        pop: 0,
+        sys: {
+          pod: "n",
+        },
+        dt_txt: "2024-12-03 03:00:00",
+      },
+      {
+        dt: 1733205600,
+        main: {
+          temp: 273.83,
+          feels_like: 269.37,
+          temp_min: 273.83,
+          temp_max: 273.83,
+          pressure: 1023,
+          sea_level: 1023,
+          grnd_level: 1003,
+          humidity: 90,
+          temp_kf: 0,
+        },
+        weather: [
+          {
+            id: 804,
+            main: "Clouds",
+            description: "overcast clouds",
+            icon: "04d",
+          },
+        ],
+        clouds: {
+          all: 100,
+        },
+        wind: {
+          speed: 4.52,
+          deg: 218,
+          gust: 10.18,
+        },
+        visibility: 10000,
+        pop: 0,
+        sys: {
+          pod: "d",
+        },
+        dt_txt: "2024-12-03 06:00:00",
+      },
+      {
+        dt: 1733216400,
+        main: {
+          temp: 273.53,
+          feels_like: 269.09,
+          temp_min: 273.53,
+          temp_max: 273.53,
+          pressure: 1022,
+          sea_level: 1022,
+          grnd_level: 1002,
+          humidity: 80,
+          temp_kf: 0,
+        },
+        weather: [
+          {
+            id: 804,
+            main: "Clouds",
+            description: "overcast clouds",
+            icon: "04d",
+          },
+        ],
+        clouds: {
+          all: 100,
+        },
+        wind: {
+          speed: 4.36,
+          deg: 215,
+          gust: 11.77,
+        },
+        visibility: 10000,
+        pop: 0,
+        sys: {
+          pod: "d",
+        },
+        dt_txt: "2024-12-03 09:00:00",
+      },
+      {
+        dt: 1733227200,
+        main: {
+          temp: 273.28,
+          feels_like: 268.86,
+          temp_min: 273.28,
+          temp_max: 273.28,
+          pressure: 1022,
+          sea_level: 1022,
+          grnd_level: 1002,
+          humidity: 79,
+          temp_kf: 0,
+        },
+        weather: [
+          {
+            id: 804,
+            main: "Clouds",
+            description: "overcast clouds",
+            icon: "04d",
+          },
+        ],
+        clouds: {
+          all: 100,
+        },
+        wind: {
+          speed: 4.25,
+          deg: 211,
+          gust: 11.28,
+        },
+        visibility: 10000,
+        pop: 0,
+        sys: {
+          pod: "d",
+        },
+        dt_txt: "2024-12-03 12:00:00",
+      },
+      {
+        dt: 1733238000,
+        main: {
+          temp: 272.63,
+          feels_like: 267.94,
+          temp_min: 272.63,
+          temp_max: 272.63,
+          pressure: 1022,
+          sea_level: 1022,
+          grnd_level: 1002,
+          humidity: 82,
+          temp_kf: 0,
+        },
+        weather: [
+          {
+            id: 804,
+            main: "Clouds",
+            description: "overcast clouds",
+            icon: "04n",
+          },
+        ],
+        clouds: {
+          all: 99,
+        },
+        wind: {
+          speed: 4.42,
+          deg: 209,
+          gust: 11.69,
+        },
+        visibility: 10000,
+        pop: 0,
+        sys: {
+          pod: "n",
+        },
+        dt_txt: "2024-12-03 15:00:00",
+      },
+      {
+        dt: 1733248800,
+        main: {
+          temp: 272.31,
+          feels_like: 267.5,
+          temp_min: 272.31,
+          temp_max: 272.31,
+          pressure: 1022,
+          sea_level: 1022,
+          grnd_level: 1002,
+          humidity: 84,
+          temp_kf: 0,
+        },
+        weather: [
+          {
+            id: 803,
+            main: "Clouds",
+            description: "broken clouds",
+            icon: "04n",
+          },
+        ],
+        clouds: {
+          all: 70,
+        },
+        wind: {
+          speed: 4.49,
+          deg: 211,
+          gust: 12.27,
+        },
+        visibility: 10000,
+        pop: 0,
+        sys: {
+          pod: "n",
+        },
+        dt_txt: "2024-12-03 18:00:00",
+      },
+      {
+        dt: 1733259600,
+        main: {
+          temp: 272.13,
+          feels_like: 267.18,
+          temp_min: 272.13,
+          temp_max: 272.13,
+          pressure: 1022,
+          sea_level: 1022,
+          grnd_level: 1001,
+          humidity: 83,
+          temp_kf: 0,
+        },
+        weather: [
+          {
+            id: 802,
+            main: "Clouds",
+            description: "scattered clouds",
+            icon: "03n",
+          },
+        ],
+        clouds: {
+          all: 32,
+        },
+        wind: {
+          speed: 4.64,
+          deg: 218,
+          gust: 12.57,
+        },
+        visibility: 10000,
+        pop: 0,
+        sys: {
+          pod: "n",
+        },
+        dt_txt: "2024-12-03 21:00:00",
+      },
+      {
+        dt: 1733270400,
+        main: {
+          temp: 271.92,
+          feels_like: 267,
+          temp_min: 271.92,
+          temp_max: 271.92,
+          pressure: 1021,
+          sea_level: 1021,
+          grnd_level: 1001,
+          humidity: 82,
+          temp_kf: 0,
+        },
+        weather: [
+          {
+            id: 803,
+            main: "Clouds",
+            description: "broken clouds",
+            icon: "04n",
+          },
+        ],
+        clouds: {
+          all: 53,
+        },
+        wind: {
+          speed: 4.52,
+          deg: 221,
+          gust: 11.85,
+        },
+        visibility: 10000,
+        pop: 0,
+        sys: {
+          pod: "n",
+        },
+        dt_txt: "2024-12-04 00:00:00",
+      },
+      {
+        dt: 1733281200,
+        main: {
+          temp: 271.71,
+          feels_like: 266.8,
+          temp_min: 271.71,
+          temp_max: 271.71,
+          pressure: 1021,
+          sea_level: 1021,
+          grnd_level: 1001,
+          humidity: 82,
+          temp_kf: 0,
+        },
+        weather: [
+          {
+            id: 802,
+            main: "Clouds",
+            description: "scattered clouds",
+            icon: "03n",
+          },
+        ],
+        clouds: {
+          all: 26,
+        },
+        wind: {
+          speed: 4.43,
+          deg: 229,
+          gust: 11.91,
+        },
+        visibility: 10000,
+        pop: 0,
+        sys: {
+          pod: "n",
+        },
+        dt_txt: "2024-12-04 03:00:00",
+      },
+      {
+        dt: 1733292000,
+        main: {
+          temp: 271.51,
+          feels_like: 266.82,
+          temp_min: 271.51,
+          temp_max: 271.51,
+          pressure: 1022,
+          sea_level: 1022,
+          grnd_level: 1002,
+          humidity: 84,
+          temp_kf: 0,
+        },
+        weather: [
+          {
+            id: 802,
+            main: "Clouds",
+            description: "scattered clouds",
+            icon: "03d",
+          },
+        ],
+        clouds: {
+          all: 49,
+        },
+        wind: {
+          speed: 4.05,
+          deg: 235,
+          gust: 10.86,
+        },
+        visibility: 10000,
+        pop: 0,
+        sys: {
+          pod: "d",
+        },
+        dt_txt: "2024-12-04 06:00:00",
+      },
+      {
+        dt: 1733302800,
+        main: {
+          temp: 272.08,
+          feels_like: 268.06,
+          temp_min: 272.08,
+          temp_max: 272.08,
+          pressure: 1024,
+          sea_level: 1024,
+          grnd_level: 1004,
+          humidity: 94,
+          temp_kf: 0,
+        },
+        weather: [
+          {
+            id: 600,
+            main: "Snow",
+            description: "light snow",
+            icon: "13d",
+          },
+        ],
+        clouds: {
+          all: 100,
+        },
+        wind: {
+          speed: 3.35,
+          deg: 262,
+          gust: 7.58,
+        },
+        visibility: 443,
+        pop: 0.2,
+        snow: {
+          "3h": 0.16,
+        },
+        sys: {
+          pod: "d",
+        },
+        dt_txt: "2024-12-04 09:00:00",
+      },
+      {
+        dt: 1733313600,
+        main: {
+          temp: 273.15,
+          feels_like: 268.82,
+          temp_min: 273.15,
+          temp_max: 273.15,
+          pressure: 1026,
+          sea_level: 1026,
+          grnd_level: 1006,
+          humidity: 96,
+          temp_kf: 0,
+        },
+        weather: [
+          {
+            id: 600,
+            main: "Snow",
+            description: "light snow",
+            icon: "13d",
+          },
+        ],
+        clouds: {
+          all: 100,
+        },
+        wind: {
+          speed: 4.07,
+          deg: 342,
+          gust: 8.17,
+        },
+        pop: 1,
+        snow: {
+          "3h": 0.78,
+        },
+        sys: {
+          pod: "d",
+        },
+        dt_txt: "2024-12-04 12:00:00",
+      },
+      {
+        dt: 1733324400,
+        main: {
+          temp: 271.14,
+          feels_like: 266.28,
+          temp_min: 271.14,
+          temp_max: 271.14,
+          pressure: 1030,
+          sea_level: 1030,
+          grnd_level: 1009,
+          humidity: 75,
+          temp_kf: 0,
+        },
+        weather: [
+          {
+            id: 804,
+            main: "Clouds",
+            description: "overcast clouds",
+            icon: "04n",
+          },
+        ],
+        clouds: {
+          all: 89,
+        },
+        wind: {
+          speed: 4.16,
+          deg: 354,
+          gust: 9.91,
+        },
+        visibility: 10000,
+        pop: 0,
+        sys: {
+          pod: "n",
+        },
+        dt_txt: "2024-12-04 15:00:00",
+      },
+      {
+        dt: 1733335200,
+        main: {
+          temp: 269.72,
+          feels_like: 265.38,
+          temp_min: 269.72,
+          temp_max: 269.72,
+          pressure: 1032,
+          sea_level: 1032,
+          grnd_level: 1012,
+          humidity: 79,
+          temp_kf: 0,
+        },
+        weather: [
+          {
+            id: 803,
+            main: "Clouds",
+            description: "broken clouds",
+            icon: "04n",
+          },
+        ],
+        clouds: {
+          all: 67,
+        },
+        wind: {
+          speed: 3.15,
+          deg: 354,
+          gust: 8.73,
+        },
+        visibility: 10000,
+        pop: 0,
+        sys: {
+          pod: "n",
+        },
+        dt_txt: "2024-12-04 18:00:00",
+      },
+      {
+        dt: 1733346000,
+        main: {
+          temp: 269.51,
+          feels_like: 265.23,
+          temp_min: 269.51,
+          temp_max: 269.51,
+          pressure: 1034,
+          sea_level: 1034,
+          grnd_level: 1014,
+          humidity: 86,
+          temp_kf: 0,
+        },
+        weather: [
+          {
+            id: 803,
+            main: "Clouds",
+            description: "broken clouds",
+            icon: "04n",
+          },
+        ],
+        clouds: {
+          all: 73,
+        },
+        wind: {
+          speed: 3.05,
+          deg: 2,
+          gust: 8.88,
+        },
+        visibility: 10000,
+        pop: 0,
+        sys: {
+          pod: "n",
+        },
+        dt_txt: "2024-12-04 21:00:00",
+      },
+      {
+        dt: 1733356800,
+        main: {
+          temp: 269.5,
+          feels_like: 265.5,
+          temp_min: 269.5,
+          temp_max: 269.5,
+          pressure: 1035,
+          sea_level: 1035,
+          grnd_level: 1015,
+          humidity: 90,
+          temp_kf: 0,
+        },
+        weather: [
+          {
+            id: 804,
+            main: "Clouds",
+            description: "overcast clouds",
+            icon: "04n",
+          },
+        ],
+        clouds: {
+          all: 87,
+        },
+        wind: {
+          speed: 2.77,
+          deg: 10,
+          gust: 8.95,
+        },
+        visibility: 10000,
+        pop: 0,
+        sys: {
+          pod: "n",
+        },
+        dt_txt: "2024-12-05 00:00:00",
+      },
+      {
+        dt: 1733367600,
+        main: {
+          temp: 269.74,
+          feels_like: 265.71,
+          temp_min: 269.74,
+          temp_max: 269.74,
+          pressure: 1036,
+          sea_level: 1036,
+          grnd_level: 1016,
+          humidity: 92,
+          temp_kf: 0,
+        },
+        weather: [
+          {
+            id: 804,
+            main: "Clouds",
+            description: "overcast clouds",
+            icon: "04n",
+          },
+        ],
+        clouds: {
+          all: 100,
+        },
+        wind: {
+          speed: 2.85,
+          deg: 28,
+          gust: 9.69,
+        },
+        visibility: 10000,
+        pop: 0,
+        sys: {
+          pod: "n",
+        },
+        dt_txt: "2024-12-05 03:00:00",
+      },
+      {
+        dt: 1733378400,
+        main: {
+          temp: 269.89,
+          feels_like: 265.87,
+          temp_min: 269.89,
+          temp_max: 269.89,
+          pressure: 1038,
+          sea_level: 1038,
+          grnd_level: 1017,
+          humidity: 92,
+          temp_kf: 0,
+        },
+        weather: [
+          {
+            id: 804,
+            main: "Clouds",
+            description: "overcast clouds",
+            icon: "04d",
+          },
+        ],
+        clouds: {
+          all: 100,
+        },
+        wind: {
+          speed: 2.86,
+          deg: 49,
+          gust: 8.14,
+        },
+        visibility: 10000,
+        pop: 0,
+        sys: {
+          pod: "d",
+        },
+        dt_txt: "2024-12-05 06:00:00",
+      },
+      {
+        dt: 1733389200,
+        main: {
+          temp: 270.22,
+          feels_like: 265.78,
+          temp_min: 270.22,
+          temp_max: 270.22,
+          pressure: 1039,
+          sea_level: 1039,
+          grnd_level: 1018,
+          humidity: 80,
+          temp_kf: 0,
+        },
+        weather: [
+          {
+            id: 804,
+            main: "Clouds",
+            description: "overcast clouds",
+            icon: "04d",
+          },
+        ],
+        clouds: {
+          all: 100,
+        },
+        wind: {
+          speed: 3.38,
+          deg: 63,
+          gust: 7.21,
+        },
+        visibility: 10000,
+        pop: 0,
+        sys: {
+          pod: "d",
+        },
+        dt_txt: "2024-12-05 09:00:00",
+      },
+      {
+        dt: 1733400000,
+        main: {
+          temp: 269.93,
+          feels_like: 265.54,
+          temp_min: 269.93,
+          temp_max: 269.93,
+          pressure: 1039,
+          sea_level: 1039,
+          grnd_level: 1019,
+          humidity: 81,
+          temp_kf: 0,
+        },
+        weather: [
+          {
+            id: 804,
+            main: "Clouds",
+            description: "overcast clouds",
+            icon: "04d",
+          },
+        ],
+        clouds: {
+          all: 100,
+        },
+        wind: {
+          speed: 3.25,
+          deg: 66,
+          gust: 6.81,
+        },
+        visibility: 10000,
+        pop: 0,
+        sys: {
+          pod: "d",
+        },
+        dt_txt: "2024-12-05 12:00:00",
+      },
+      {
+        dt: 1733410800,
+        main: {
+          temp: 269.38,
+          feels_like: 264.67,
+          temp_min: 269.38,
+          temp_max: 269.38,
+          pressure: 1040,
+          sea_level: 1040,
+          grnd_level: 1019,
+          humidity: 82,
+          temp_kf: 0,
+        },
+        weather: [
+          {
+            id: 804,
+            main: "Clouds",
+            description: "overcast clouds",
+            icon: "04n",
+          },
+        ],
+        clouds: {
+          all: 100,
+        },
+        wind: {
+          speed: 3.48,
+          deg: 78,
+          gust: 8.09,
+        },
+        visibility: 10000,
+        pop: 0,
+        sys: {
+          pod: "n",
+        },
+        dt_txt: "2024-12-05 15:00:00",
+      },
+      {
+        dt: 1733421600,
+        main: {
+          temp: 269.19,
+          feels_like: 264.46,
+          temp_min: 269.19,
+          temp_max: 269.19,
+          pressure: 1041,
+          sea_level: 1041,
+          grnd_level: 1020,
+          humidity: 79,
+          temp_kf: 0,
+        },
+        weather: [
+          {
+            id: 804,
+            main: "Clouds",
+            description: "overcast clouds",
+            icon: "04n",
+          },
+        ],
+        clouds: {
+          all: 100,
+        },
+        wind: {
+          speed: 3.45,
+          deg: 88,
+          gust: 8.89,
+        },
+        visibility: 10000,
+        pop: 0,
+        sys: {
+          pod: "n",
+        },
+        dt_txt: "2024-12-05 18:00:00",
+      },
+      {
+        dt: 1733432400,
+        main: {
+          temp: 269.28,
+          feels_like: 264.51,
+          temp_min: 269.28,
+          temp_max: 269.28,
+          pressure: 1041,
+          sea_level: 1041,
+          grnd_level: 1021,
+          humidity: 74,
+          temp_kf: 0,
+        },
+        weather: [
+          {
+            id: 804,
+            main: "Clouds",
+            description: "overcast clouds",
+            icon: "04n",
+          },
+        ],
+        clouds: {
+          all: 100,
+        },
+        wind: {
+          speed: 3.52,
+          deg: 102,
+          gust: 9.56,
+        },
+        visibility: 10000,
+        pop: 0,
+        sys: {
+          pod: "n",
+        },
+        dt_txt: "2024-12-05 21:00:00",
+      },
+      {
+        dt: 1733443200,
+        main: {
+          temp: 269.14,
+          feels_like: 264.1,
+          temp_min: 269.14,
+          temp_max: 269.14,
+          pressure: 1041,
+          sea_level: 1041,
+          grnd_level: 1021,
+          humidity: 69,
+          temp_kf: 0,
+        },
+        weather: [
+          {
+            id: 804,
+            main: "Clouds",
+            description: "overcast clouds",
+            icon: "04n",
+          },
+        ],
+        clouds: {
+          all: 100,
+        },
+        wind: {
+          speed: 3.8,
+          deg: 116,
+          gust: 10.4,
+        },
+        visibility: 10000,
+        pop: 0,
+        sys: {
+          pod: "n",
+        },
+        dt_txt: "2024-12-06 00:00:00",
+      },
+      {
+        dt: 1733454000,
+        main: {
+          temp: 268.98,
+          feels_like: 263.93,
+          temp_min: 268.98,
+          temp_max: 268.98,
+          pressure: 1041,
+          sea_level: 1041,
+          grnd_level: 1020,
+          humidity: 67,
+          temp_kf: 0,
+        },
+        weather: [
+          {
+            id: 804,
+            main: "Clouds",
+            description: "overcast clouds",
+            icon: "04n",
+          },
+        ],
+        clouds: {
+          all: 100,
+        },
+        wind: {
+          speed: 3.77,
+          deg: 123,
+          gust: 10.51,
+        },
+        visibility: 10000,
+        pop: 0,
+        sys: {
+          pod: "n",
+        },
+        dt_txt: "2024-12-06 03:00:00",
+      },
+      {
+        dt: 1733464800,
+        main: {
+          temp: 268.97,
+          feels_like: 263.56,
+          temp_min: 268.97,
+          temp_max: 268.97,
+          pressure: 1041,
+          sea_level: 1041,
+          grnd_level: 1021,
+          humidity: 65,
+          temp_kf: 0,
+        },
+        weather: [
+          {
+            id: 804,
+            main: "Clouds",
+            description: "overcast clouds",
+            icon: "04d",
+          },
+        ],
+        clouds: {
+          all: 100,
+        },
+        wind: {
+          speed: 4.22,
+          deg: 128,
+          gust: 11.32,
+        },
+        visibility: 10000,
+        pop: 0,
+        sys: {
+          pod: "d",
+        },
+        dt_txt: "2024-12-06 06:00:00",
+      },
+      {
+        dt: 1733475600,
+        main: {
+          temp: 269.48,
+          feels_like: 263.93,
+          temp_min: 269.48,
+          temp_max: 269.48,
+          pressure: 1041,
+          sea_level: 1041,
+          grnd_level: 1020,
+          humidity: 61,
+          temp_kf: 0,
+        },
+        weather: [
+          {
+            id: 804,
+            main: "Clouds",
+            description: "overcast clouds",
+            icon: "04d",
+          },
+        ],
+        clouds: {
+          all: 100,
+        },
+        wind: {
+          speed: 4.57,
+          deg: 137,
+          gust: 11.86,
+        },
+        visibility: 10000,
+        pop: 0,
+        sys: {
+          pod: "d",
+        },
+        dt_txt: "2024-12-06 09:00:00",
+      },
+    ],
+    city: {
+      id: 524901,
+      name: "Moscow",
+      coord: {
+        lat: 55.7522,
+        lon: 37.6156,
+      },
+      country: "RU",
+      population: 1000000,
+      timezone: 10800,
+      sunrise: 1733031325,
+      sunset: 1733058137,
+    },
+  },
+};
